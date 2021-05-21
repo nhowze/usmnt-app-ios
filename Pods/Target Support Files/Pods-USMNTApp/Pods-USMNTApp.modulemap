@@ -1,0 +1,6 @@
+framework module Pods_USMNTApp {
+  umbrella header "Pods-USMNTApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
