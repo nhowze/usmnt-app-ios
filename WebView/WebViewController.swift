@@ -53,8 +53,8 @@ let statusbarcolor = UIColor.black
 var usemystatusbarcolor = "true" //Set to "true" to activate the custom status bar text color (inofficial API, see http://stackoverflow.com/questions/23512700/how-to-set-text-color-of-status-bar-other-than-white-and-black); use a service like "RGB Color Picker": http://www.colorpicker.com
 
 //AdMob configuration
-var AdmobBannerID = "ca-app-pub-3940256099942544/2934735718" //AdMob ID for banner ads
-var AdmobinterstitialID = "ca-app-pub-8135666329208851/7615617982" //AdMob ID for interstitial ads
+var AdmobBannerID = "" //AdMob ID for banner ads
+var AdmobinterstitialID = "" //AdMob ID for interstitial ads
 var showBannerAd = "false" //Set to true if you want to show AdMob banner ads
 var showFullScreenAd = "true" //Set to true if you want to show AdMob interstitial ads after X website clicks
 var showadAfterX = 5 //X website clicks for AdMob interstitial ads

@@ -26,14 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                
         
         
-        Flurry.startSession("KMZH5GT3MJNPMXX6T9ZV")
+        Flurry.startSession("")
         
         
         if Constants.kPushEnabled
         {
             let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: true]
             
-            OneSignal.initWithLaunchOptions(launchOptions,appId: "978b8197-0ffa-4401-90be-0c4ab01aced0",handleNotificationAction: {(result) in let payload = result?.notification.payload
+            OneSignal.initWithLaunchOptions(launchOptions,appId: "",handleNotificationAction: {(result) in let payload = result?.notification.payload
                 if let additionalData = payload?.additionalData {
                 let noti_url = additionalData["url"] as! String
                     UserDefaults.standard.set(noti_url, forKey: "Noti_Url")
